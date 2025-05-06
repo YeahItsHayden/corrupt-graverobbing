@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+body.minigame-active {
+    background: #111;
+}
+
+#minigame {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background: url('assets/dirt_texture.png');
+    padding: 20px;
+    border: 5px solid #3c2f2f;
+    border-radius: 10px;
+}
+
+#diggingCanvas {
+    background: #4a3728;
+    border: 2px solid #000;
+}
+
+#progress, #instructions {
+    color: #e0d6b2;
+    font-size: 20px;
+    margin: 10px 0;
+    text-shadow: 2px 2px 4px #000;
+}
+
+.hidden {
+    display: none;
+}
